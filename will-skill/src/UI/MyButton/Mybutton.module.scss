@@ -1,0 +1,10 @@
+.btn {
+  padding: 16px 32px;
+  background-color: var(--yellow);
+  font-size: 18px;
+  border-radius: 7px;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: #ef7109;
+  }
+}

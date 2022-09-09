@@ -1,0 +1,220 @@
+.BottomSlide {
+  color: var(--white);
+  background-color: var(--black);
+  padding-top: 90px;
+  .body {
+    .title {
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 90px;
+      .tTitle {
+        color: var(--white);
+      }
+      .btTitle {
+        color: var(--yellow);
+      }
+    }
+  }
+  .footer {
+    margin: 0 -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    .centerColumn {
+      flex: 1 1 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 50px;
+      .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 59px;
+        .oldPrice {
+          color: var(--gray);
+          font-size: 36px;
+          position: relative;
+          transform-style: preserve-3d;
+          margin-right: 36px;
+          &:before {
+            position: absolute;
+            transform: translateZ(10px);
+            content: "";
+            width: 100%;
+            height: 2px;
+            background-color: var(--gray);
+            color: red;
+            top: 50%;
+            left: 0;
+          }
+        }
+        .newPrice {
+          font-size: 48px;
+        }
+      }
+      .imgBody {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 45px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .cTitle {
+        font-size: 36px;
+        margin-bottom: 8px;
+        text-align: center;
+      }
+      .cSubtitle {
+        color: var(--yellow);
+        font-size: 24px;
+        margin-bottom: 64px;
+      }
+    }
+    .column {
+      width: 100%;
+      flex: 1 1 25%;
+      padding: 0 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .imgBodyColumn {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 70px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .infoColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div {
+          &:first-child {
+            color: var(--yellow);
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .BottomSlide {
+    .body {
+      .title {
+        .tTitle {
+        }
+        .btTitle {
+        }
+      }
+    }
+    .footer {
+      flex-direction: column;
+
+      .centerColumn {
+        order: 3;
+        width: 100%;
+        .price {
+          order: 2;
+          .oldPrice {
+            &:before {
+            }
+          }
+          .newPrice {
+          }
+        }
+        .imgBody {
+          order: 1;
+          img {
+          }
+        }
+        .cTitle {
+          order: 2;
+        }
+        .cSubtitle {
+          order: 2;
+        }
+        .cButton {
+          order: 3;
+        }
+      }
+      .column {
+        width: 35%;
+        margin-bottom: 20px;
+        .imgBodyColumn {
+          margin-bottom: 20px;
+          img {
+          }
+        }
+        .infoColumn {
+          div {
+            &:first-child {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .BottomSlide {
+    .body {
+      .title {
+        font-size: 30px;
+        .tTitle {
+        }
+        .btTitle {
+        }
+      }
+    }
+    .footer {
+      .centerColumn {
+        .price {
+          .oldPrice {
+            &:before {
+            }
+          }
+          .newPrice {
+          }
+        }
+        .imgBody {
+          img {
+          }
+        }
+        .cTitle {
+          font-size: 30px;
+        }
+        .cSubtitle {
+        }
+        .cButton {
+        }
+      }
+      .column {
+        width: 50%;
+        .imgBodyColumn {
+          img {
+          }
+        }
+        .infoColumn {
+          div {
+            &:first-child {
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,233 @@
+.topSlide {
+  position: relative;
+  background-size: cover;
+
+  .body {
+    padding: 170px 0 95px 0;
+    position: relative;
+    z-index: 7;
+    .title {
+      font-size: 144px;
+      color: var(--white);
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    .subTitle {
+      font-weight: 400;
+      font-size: 24px;
+      color: var(--black);
+      margin-bottom: 120px;
+      max-width: 650px;
+    }
+    .bottomText {
+      max-width: 416px;
+      .infoTitle {
+        font-weight: 700;
+        font-size: 36px;
+        color: var(--black);
+        margin-bottom: 16px;
+      }
+      .infoSubTitle {
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
+  }
+  .composition {
+    position: absolute;
+    bottom: 44px;
+    right: 16px;
+    width: 400px;
+    height: 580px;
+  }
+  .Lemon {
+    position: absolute;
+    bottom: -246px;
+    right: 178px;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    animation-name: invizLeft;
+    animation-duration: 2s;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .ginger {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: -31px;
+    bottom: -70px;
+    animation-name: invizRight;
+    animation-duration: 2s;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .nootris {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    animation-name: invizTop;
+    animation-duration: 2s;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .topSlide {
+    .body {
+      max-width: 600px;
+      .title {
+        font-size: 92px;
+      }
+      .subTitle {
+      }
+      .bottomText {
+        .infoTitle {
+        }
+        .infoSubTitle {
+        }
+      }
+    }
+    .composition {
+      height: 500px;
+      bottom: 80px;
+    }
+    .Lemon {
+      img {
+      }
+    }
+    .ginger {
+      img {
+      }
+    }
+    .nootris {
+      img {
+      }
+    }
+  }
+}
+@media screen and (max-width: 765px) {
+  .topSlide {
+    .body {
+      max-width: 400px;
+      .title {
+        font-size: 60px;
+      }
+      .subTitle {
+        font-size: 19px;
+        margin-bottom: 50px;
+      }
+      .bottomText {
+        .infoTitle {
+          font-size: 25px;
+        }
+        .infoSubTitle {
+          font-size: 19px;
+        }
+      }
+    }
+    .composition {
+      right: 0px;
+      height: 345px;
+      bottom: 60px;
+      width: 355px;
+    }
+    .Lemon {
+      bottom: -160px;
+      img {
+      }
+    }
+    .ginger {
+      img {
+      }
+    }
+    .nootris {
+      bottom: -25px;
+      img {
+      }
+    }
+  }
+}
+@media screen and (max-width: 526px) {
+  .topSlide {
+    .body {
+      max-width: 300px;
+
+      .title {
+        font-size: 40px;
+      }
+      .subTitle {
+      }
+      .bottomText {
+        .infoTitle {
+        }
+        .infoSubTitle {
+        }
+      }
+    }
+    .composition {
+      height: 294px;
+      width: 257px;
+    }
+    .Lemon {
+      left: 0;
+      img {
+      }
+    }
+    .ginger {
+      img {
+      }
+    }
+    .nootris {
+      img {
+      }
+    }
+  }
+}
+
+@keyframes invizTop {
+  0% {
+    transform: translate(0px, -90px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@keyframes invizLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-90px, -80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@keyframes invizRight {
+  0% {
+    transform: translate(90px, 80px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
