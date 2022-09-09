@@ -1,7 +1,7 @@
 import * as React from "react";
 import S from "./Page404.module.scss";
-import bg from "../../assets/img/bg.png";
-import nootris from "../../assets/img/nootris.png";
+import bg from "../../assets/img/bg.webp";
+import nootris from "../../assets/img/nootris.webp";
 import { useNavigate } from "react-router-dom";
 import Mybutton from "../../UI/MyButton/Mybutton";
 

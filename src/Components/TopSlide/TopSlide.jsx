@@ -1,9 +1,9 @@
 import * as React from "react";
 import S from "./TopSlide.module.scss";
-import bg from "../../assets/img/bg.png";
-import Lemon from "../../assets/img/Lemon.png";
-import ginger from "../../assets/img/ginger.png";
-import nootris from "../../assets/img/nootris.png";
+import bg from "../../assets/img/bg.webp";
+import Lemon from "../../assets/img/Lemon.webp";
+import ginger from "../../assets/img/ginger.webp";
+import nootris from "../../assets/img/nootris.webp";
 
 const TopSlide = () => {
   return (

@@ -1,9 +1,9 @@
 import * as React from "react";
 import S from "./BottomSlide.module.scss";
 import ColumnBottomSlide from "./ColumnBottomSlide/ColumnBottomSlide";
-import ginger from "../../assets/img/ginger.png";
-import virus from "../../assets/img/virus.png";
-import nootris from "../../assets/img/nootris-rotate.png";
+import ginger from "../../assets/img/ginger.webp";
+import virus from "../../assets/img/virus.webp";
+import nootris from "../../assets/img/nootris-rotate.webp";
 import Mybutton from "../../UI/MyButton/Mybutton";
 
 const BottomSlide = () => {
