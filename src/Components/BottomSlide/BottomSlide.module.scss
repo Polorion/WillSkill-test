@@ -112,28 +112,13 @@
 
 @media screen and (max-width: 950px) {
   .BottomSlide {
-    .body {
-      .title {
-        .tTitle {
-        }
-        .btTitle {
-        }
-      }
-    }
     .footer {
       flex-direction: column;
-
       .centerColumn {
         order: 3;
         width: 100%;
         .price {
           order: 2;
-          .oldPrice {
-            &:before {
-            }
-          }
-          .newPrice {
-          }
         }
         .imgBody {
           order: 1;
@@ -155,14 +140,6 @@
         margin-bottom: 20px;
         .imgBodyColumn {
           margin-bottom: 20px;
-          img {
-          }
-        }
-        .infoColumn {
-          div {
-            &:first-child {
-            }
-          }
         }
       }
     }
@@ -174,46 +151,16 @@
     .body {
       .title {
         font-size: 30px;
-        .tTitle {
-        }
-        .btTitle {
-        }
       }
     }
     .footer {
       .centerColumn {
-        .price {
-          .oldPrice {
-            &:before {
-            }
-          }
-          .newPrice {
-          }
-        }
-        .imgBody {
-          img {
-          }
-        }
         .cTitle {
           font-size: 30px;
-        }
-        .cSubtitle {
-        }
-        .cButton {
         }
       }
       .column {
         width: 50%;
-        .imgBodyColumn {
-          img {
-          }
-        }
-        .infoColumn {
-          div {
-            &:first-child {
-            }
-          }
-        }
       }
     }
   }

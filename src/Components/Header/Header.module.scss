@@ -154,21 +154,9 @@
       justify-content: flex-start;
       .nav {
         display: none;
-        .navList {
-          .navLi {
-            &:not(:last-child) {
-            }
-          }
-        }
       }
       .logo {
         margin-right: auto;
-        svg {
-        }
-      }
-      .basketBody {
-        svg {
-        }
       }
     }
   }
