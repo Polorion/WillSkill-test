@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WillSkill-test.iml" filepath="$PROJECT_DIR$/.idea/WillSkill-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/will-skill.iml" filepath="$PROJECT_DIR$/.idea/will-skill.iml" />
     </modules>
   </component>
 </project>

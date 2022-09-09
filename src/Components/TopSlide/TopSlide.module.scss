@@ -11,10 +11,12 @@
       color: var(--white);
       font-weight: 700;
       margin-bottom: 24px;
+      text-shadow: 10px 9px 16px rgba(206, 206, 206, 0.83);
     }
     .subTitle {
-      font-weight: 400;
+      font-weight: 700;
       font-size: 24px;
+      text-shadow: 3px 5px 4px rgba(00, 00, 00, 0.83);
       color: var(--black);
       margin-bottom: 120px;
       max-width: 650px;
@@ -26,10 +28,12 @@
         font-size: 36px;
         color: var(--black);
         margin-bottom: 16px;
+        text-shadow: 3px 5px 4px rgba(00, 00, 00, 0.83);
       }
       .infoSubTitle {
         font-weight: 400;
         font-size: 18px;
+        text-shadow: 3px 5px 4px rgba(00, 00, 00, 0.83);
       }
     }
   }
@@ -41,6 +45,7 @@
     height: 580px;
   }
   .Lemon {
+    transition: all 0.1s ease;
     position: absolute;
     bottom: -246px;
     right: 178px;
