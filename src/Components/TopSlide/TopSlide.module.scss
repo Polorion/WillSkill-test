@@ -11,12 +11,36 @@
       color: var(--white);
       font-weight: 700;
       margin-bottom: 24px;
-      text-shadow: 10px 9px 16px rgba(206, 206, 206, 0.83);
+      text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0),
+        1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0),
+        -1px -1px 0 rgb(0, 0, 0), 2px 2px 1px rgba(0, 0, 0, 1);
+      -webkit-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0),
+        1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0),
+        -1px -1px 0 rgb(0, 0, 0), 2px 2px 1px rgba(0, 0, 0, 1);
+      -moz-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0),
+        1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0),
+        -1px -1px 0 rgb(0, 0, 0), 2px 2px 1px rgba(0, 0, 0, 1);
     }
     .subTitle {
       font-weight: 700;
       font-size: 24px;
-      text-shadow: 3px 5px 4px rgba(00, 00, 00, 0.83);
+      text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255),
+        1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255),
+        1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+        -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+      -webkit-text-shadow: 0px 1px 0 rgb(255, 255, 255),
+        0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255),
+        -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+        1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
+        -1px -1px 0 rgb(255, 255, 255);
+      -moz-text-shadow: 0px 1px 0 rgb(255, 255, 255),
+        0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255),
+        -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+        1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
+        -1px -1px 0 rgb(255, 255, 255);
       color: var(--black);
       margin-bottom: 120px;
       max-width: 650px;
@@ -28,12 +52,38 @@
         font-size: 36px;
         color: var(--black);
         margin-bottom: 16px;
-        text-shadow: 3px 5px 4px rgba(00, 00, 00, 0.83);
+        text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255),
+          1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255),
+          1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+          -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+        -webkit-text-shadow: 0px 1px 0 rgb(255, 255, 255),
+          0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255),
+          -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+          1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
+          -1px -1px 0 rgb(255, 255, 255);
+        -moz-text-shadow: 0px 1px 0 rgb(255, 255, 255),
+          0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255),
+          -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+          1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
+          -1px -1px 0 rgb(255, 255, 255);
       }
       .infoSubTitle {
         font-weight: 400;
         font-size: 18px;
-        text-shadow: 3px 5px 4px rgba(00, 00, 00, 0.83);
+        text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255),
+          1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255),
+          1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+          -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+        -webkit-text-shadow: 0px 1px 0 rgb(255, 255, 255),
+          0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255),
+          -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+          1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
+          -1px -1px 0 rgb(255, 255, 255);
+        -moz-text-shadow: 0px 1px 0 rgb(255, 255, 255),
+          0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255),
+          -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+          1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255),
+          -1px -1px 0 rgb(255, 255, 255);
       }
     }
   }
